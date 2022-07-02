@@ -1,6 +1,6 @@
 import React from 'react'
 import './imagelink.css'
-import API_KEY  from '../../keys';
+import API_KEY  from '../../../keys';
 const Clarifai = require('clarifai');
 const app = new Clarifai.App({
   apiKey: {API_KEY}
