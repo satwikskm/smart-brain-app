@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li,ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav{
+    padding: 30px 30px;
+    color: aliceblue;
+    display: flex;
+    justify-content: right;
+}
+.nav:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
